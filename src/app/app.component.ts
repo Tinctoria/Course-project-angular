@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Idas-course-projekt';
+  loadedFeature = 'recipe';
+
+  onNavigation(feature: string){
+    this.loadedFeature=feature; 
+
+  }
 }
