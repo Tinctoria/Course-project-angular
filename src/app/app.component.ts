@@ -6,11 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Idas-course-projekt';
-  loadedFeature = 'recipe';
-
-  onNavigation(feature: string){
-    this.loadedFeature=feature; 
-
-  }
 }
